@@ -3,6 +3,8 @@
 Discord front end for [commute-planner](https://github.com/hindih3/commute-planner).
 `/commute deadline: 9:00` (or `direction: home`) asks the planner for routes
 starting the moment the command is sent and replies with the best three.
+Going home, `/commute direction: home` with no deadline finds the first Metra
+train you can make (via the planner's `GET /trips/home`) and how to make it.
 
 ## Run
 
